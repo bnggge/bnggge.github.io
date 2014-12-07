@@ -1,11 +1,16 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans&subset=latin,latin-ext);
+
+
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
   padding-top: 50px;
   padding-bottom: 20px;
+
+  font-family: 'Open Sans', sans-serif;
 }
 
-.jumbotron { 
-	background-image: url("http://coach-courses-us.s3.amazonaws.com/attached_files/learning_materials/original/139.png?1397731131"); 
-  background-position: 50% 50%; 
-  color: white; 
+.jumbotron {
+	background-image: url("http://coach-courses-us.s3.amazonaws.com/attached_files/learning_materials/original/139.png?1397731131");
+  background-position: 50% 50%;
+  color: white;
 }
