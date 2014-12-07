@@ -15,5 +15,6 @@ body {
 .jumbotron {
 	/*background-image: url("http://coach-courses-us.s3.amazonaws.com/attached_files/learning_materials/original/139.png?1397731131");
   background-position: 50% 50%; */
+  background-color: black;
   color: white;
 }
