@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ggge UG (haftungsbeschr&auml;nkt) offers IT and Marketing solutions for startups and small companies">
+    <meta name="author" content="bnggge">
+    <link rel="shortcut icon" href="favicon.png">
+
+    <title>About</title>
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="styles.css" rel="stylesheet">
+
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <h2>Greetings</h2>
+<div class="container">
+  <div class="inner">
+    Hello
+    <p>Test</p>
+  </div>
+  <div class="inner">
+    Goodbye
+    <p>Test</p>
+  </div>
+</div>
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+
+    /*  Remove only the second "Test" paragraph from the page
+Add the class "first" to the first "inner" div
+Append a paragraph that says "Introduction" after the "Greetings" h2 tag */
+$(".inner:eq(1)").remove();
+$(".inner").first().addClass("first");
+$("<p>Introduction</p>").appendTo("h2");
+    </script>
+  </body>
+</html>
